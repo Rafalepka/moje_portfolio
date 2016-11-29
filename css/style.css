@@ -60,6 +60,10 @@ p {
     list-style: none;
 }
 
+#nav_menu .toggle, #drop {
+    display: none;
+}
+
 #nav_menu .menu-item>a {
     text-decoration: none;
     padding: 10px 40px;
@@ -280,9 +284,6 @@ p {
     margin-right: 25px;
     border: 1px solid white;
     text-align: center;
-}
-
-#contact > .contact_position_left > .contact_position_left_icons a {
     color: white;
     font-size: 25px;
 }
